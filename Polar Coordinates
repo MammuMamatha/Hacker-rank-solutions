@@ -1,0 +1,9 @@
+import math
+import cmath
+n=complex(input())
+x=n.real
+y=n.imag
+r=((x*x)+(y*y))**0.5
+y=cmath.phase(complex(x,y))
+print(r)
+print(y)
